@@ -1,0 +1,102 @@
+{
+    "name": "VR Inputs",
+    "maps": [
+        {
+            "name": "Controller Right",
+            "id": "fdc7b193-aaa9-43b3-94ae-8e8eccc621fc",
+            "actions": [
+                {
+                    "name": "Grabbing",
+                    "type": "Button",
+                    "id": "d48b40bf-49aa-4bec-b819-d80c326f2fec",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Velocity",
+                    "type": "Value",
+                    "id": "1600afc5-4e79-4680-a1b4-b54db8ae31f2",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "76cae072-5473-4075-a788-23d3655f5055",
+                    "path": "<OculusTouchController>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grabbing",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "10b7d0a3-1547-4398-9bb4-6a564d0925d3",
+                    "path": "<XRController>{LeftHand}/deviceVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Velocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Controller Left",
+            "id": "ead0162a-8a09-4281-b0ae-e08c1925cbc7",
+            "actions": [
+                {
+                    "name": "Grabbing",
+                    "type": "Button",
+                    "id": "ad62db34-8956-4b2c-a199-62acdbbcd734",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Velocity",
+                    "type": "Value",
+                    "id": "cb32e327-3896-4ce7-b900-867a0671e6e2",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2162d39c-36cf-4945-857d-47b0c6b26ecb",
+                    "path": "<OculusTouchController>{LeftHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grabbing",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "91ec8b99-8942-4a65-9ab9-e77d3826b950",
+                    "path": "<XRController>{LeftHand}/deviceVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Velocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
